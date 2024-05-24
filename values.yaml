@@ -4,7 +4,7 @@
 
 replicaCount: 1
 image:
-  repository: app-devops
+  repository: aquangvm/app-devops
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0ffcf1e"
